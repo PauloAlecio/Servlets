@@ -1,0 +1,48 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+		 http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+		 version="3.1">
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+<!--	<servlet>-->
+<!--		<servlet-name>UploadServlet</servlet-name>-->
+<!--		<servlet-class>upload.UploadServlet</servlet-class>-->
+<!--	</servlet>-->
+
+<!--	<servlet-mapping>-->
+<!--		<servlet-name>UploadServlet</servlet-name>-->
+<!--		<url-pattern>/UploadServlet</url-pattern>-->
+<!--	</servlet-mapping>-->
+
+
+<!--	<session-config>-->
+<!--		<session-timeout>1</session-timeout>-->
+<!--	</session-config>-->
+
+<!--	<context-param>-->
+<!--		<description>Location to store uploaded file</description>-->
+<!--		<param-name>file-upload</param-name>-->
+<!--		<param-value>-->
+<!--&lt;!&ndash;			c:\apache-tomcat-5.5.29\webapps\data\&ndash;&gt;-->
+<!--&lt;!&ndash;			/home/Paulo-Alecio/SERVERS/apache-tomcat-10.1.10/webapp/data&ndash;&gt;-->
+<!--&lt;!&ndash;			src/main/webapp/data&ndash;&gt;-->
+<!--			/home/Paulo-Alecio/SERVERS/apache-tomcat-10.1.10/webapps/servlet-jsp/data-->
+<!--		</param-value>-->
+<!--	</context-param>-->
+
+	<error-page>
+		<error-code>404</error-code>
+		<location>/errors/erro-404.html</location> <!-- /src/main/webapp/error-404.html -->
+	</error-page>
+
+
+	<error-page>
+		<exception-type>java.lang.Throwable</exception-type >
+		<location>/ErrorHandler</location>
+	</error-page>
+
+</web-app>
+	

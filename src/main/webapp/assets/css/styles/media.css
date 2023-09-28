@@ -1,0 +1,50 @@
+@media screen and (max-width: 760px){
+
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    form{
+        width: 100%;
+        margin: 0 auto 2rem;
+
+    }
+
+    input{
+        align-self: center;
+    }
+
+    img{
+        display: none;
+    }
+
+    ul{
+        text-align: center;
+    }
+    
+    aside{
+        text-align: center;
+    }
+
+    footer{
+        font-family: SansSerif, sans-serif;
+        padding: 15px;
+        /*margin-bottom: -20rem;*/
+        font-size: 18px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #222222FF;
+        color: white;
+        text-align: center;
+    }
+}
