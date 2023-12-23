@@ -1,5 +1,5 @@
 # Servlets e JSP
-
+Objetivo deste projeto é revisar conceitos básicos de programação server side utilizando Java e Servlets.
 ## JSP - Architecture
 
 
